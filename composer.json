@@ -10,10 +10,6 @@
         }
     ],
     "minimum-stability": "alpha",
-    "require": {
-        "php": "~5.6.0|7.0.2|~7.0.6|7.1.23|7.1.30",
-        "magento/magento-composer-installer": "*"
-    },
     "type": "magento2-module",
     "autoload": {
         "psr-4": {
