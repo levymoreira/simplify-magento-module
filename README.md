@@ -39,7 +39,7 @@ Log on to your Magento 2 server and navigate to Magento installation folder. The
 Run the following commands to download and install the module:
 
     composer config repositories.mastercard-module-simplifycommerce git https://github.com/simplifycom/simplify-magento-module.git
-    composer require mastercard/module-simplifycommerce:2.1.6 --prefer-dist
+    composer require mastercard/module-simplifycommerce:2.1.7 --prefer-dist
     ./bin/magento setup:upgrade
     ./bin/magento cache:clean
 
@@ -50,7 +50,7 @@ Verify whether the module has been succesfully installed. Log in to Magento Admi
 ### Manual installation 
 If you prefer to deploy and install the module without Composer, proceed with the following steps:
 
-Download module files from [https://github.com/simplifycom/simplify-magento-module/archive/2.1.6.zip](https://github.com/simplifycom/simplify-magento-module/archive/2.1.6.zip)
+Download module files from [https://github.com/simplifycom/simplify-magento-module/archive/2.1.7.zip](https://github.com/simplifycom/simplify-magento-module/archive/2.1.7.zip)
 
 Create folder structure inside the the Magento main folder:
 
